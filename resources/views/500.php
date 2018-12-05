@@ -6,7 +6,7 @@
  *
  * @package 
  */
-get_header(); ?>
+Hybrid\View\display( 'header', Hybrid\Template\hierarchy() ); ?>
 
 <div class="wrap">
 	<div id="primary" class="content-area">
@@ -30,4 +30,4 @@ get_header(); ?>
 </div><!-- .wrap -->
 
 <?php
-get_footer();
+Hybrid\View\display( 'footer', Hybrid\Template\hierarchy() );

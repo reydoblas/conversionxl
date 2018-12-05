@@ -8,7 +8,7 @@
  */
 // Prevent showing nav menus.
 add_filter( 'has_nav_menu', '__return_false' );
-get_header(); ?>
+Hybrid\View\display( 'header', Hybrid\Template\hierarchy() ); ?>
 
 <div class="wrap">
 	<div id="primary" class="content-area">
@@ -32,4 +32,4 @@ get_header(); ?>
 </div><!-- .wrap -->
 
 <?php
-get_footer();
+Hybrid\View\display( 'footer', Hybrid\Template\hierarchy() );

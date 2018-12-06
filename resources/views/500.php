@@ -14,10 +14,10 @@ Hybrid\View\display( 'header', Hybrid\Template\hierarchy() ); ?>
 
 			<section class="error-500 internal-server-error">
 				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! Something went wrong.', 'twentyseventeen-westonson' ); ?></h1>
+					<h1 class="page-title"><?php esc_html_e( 'Oops! Something went wrong.' ); ?></h1>
 				</header><!-- .page-header -->
 				<div class="page-content">
-					<p><?php esc_html_e( 'Something prevented the page from being rendered. Please try again.', 'twentyseventeen-westonson' ); ?></p>
+					<p><?php esc_html_e( 'Something prevented the page from being rendered. Please try again.' ); ?></p>
 
 					<?php
 					if ( function_exists( 'wp_service_worker_error_details_template' ) ) {

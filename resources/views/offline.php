@@ -16,7 +16,7 @@ Hybrid\View\display( 'header', Hybrid\Template\hierarchy() ); ?>
 
 			<section class="error-offline">
 				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! It looks like you&#8217;re offline.', 'twentyseventeen-westonson' ); ?></h1>
+					<h1 class="page-title"><?php esc_html_e( 'Oops! It looks like you&#8217;re offline.' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">

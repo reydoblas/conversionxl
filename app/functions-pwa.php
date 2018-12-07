@@ -11,8 +11,6 @@
  * @link      
  */
 
-namespace Mythic;
-
 /**
  * Caches images using PWA-WP Caching feature.
  *

@@ -15,7 +15,7 @@ Hybrid\View\display( 'header', Hybrid\Template\hierarchy() ); ?>
 		<main id="main" class="site-main" role="main">
 
 			<section class="error-offline">
-				<img src="https://magento.blendit.eu/conversionxl/wp-content/uploads/2018/12/offline.png" width="150" height="150" />
+				
 				<header class="page-header">
 					<h1 class="page-title"><?php esc_html_e( 'Oops! It looks like you&#8217;re offline.' ); ?></h1>
 				</header><!-- .page-header -->
